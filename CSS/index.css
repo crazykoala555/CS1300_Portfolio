@@ -1,0 +1,72 @@
+html {
+    font-family: "Roboto Thin", sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#intro-photo {
+    background-image: url("../Assets/index/intro-photo-blurred.png");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: blur(8px);*/
+    /*-webkit-filter: blur(8px);*/
+}
+#intro-text{
+    text-align: center;
+    margin: auto;
+    padding-top: 30vh;
+    font-size: 5rem;
+    word-break: break-all;
+    color: #3A2E39;
+    filter: drop-shadow(0.3rem 0.3rem 0px #FFFFFF);
+}
+.intro-text{
+    text-align: center;
+}
+#intro-button{
+    margin: auto;
+    text-align: center;
+}
+button{
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0);
+    color: #3A2E39;
+    border: 4px solid #3A2E39;
+    border-radius: 0.5rem;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #3A2E39;
+    color: #F4D8CD;
+}
+footer{
+    background-color: #637D8B;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#projects-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin-left: 15%;
+}
+.project{
+    max-width: 20rem;
+    background-color: #FFFFFF;
+    border: solid black 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+}
+.project-image{
+    max-height: 20rem;
+}
+.proj-desc {
+    padding: 0.5rem;
+}
